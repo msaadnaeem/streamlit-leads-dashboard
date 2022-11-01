@@ -30,8 +30,8 @@ with colRight:
     st.metric(label='Paid Leads',value=paidLeads)
 
 st.subheader('Daily Leads')
-st.plotly_chart(fig1)
+st.plotly_chart(fig1,use_container_width=True)
 
 st.subheader('Brand Segments')
-st.plotly_chart(fig2)
+st.plotly_chart(fig2,use_container_width=True)
 
